@@ -46,3 +46,13 @@
 .field__task button:hover {
     background-color: gray;
 }
+
+
+
+
+/* media------------------------ */
+@media screen and (max-width: 320px) {
+    input {
+        font-size: 20px;
+    }
+}
