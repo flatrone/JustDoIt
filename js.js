@@ -9,6 +9,9 @@ addTaskButton.addEventListener('click', () => {
     addTask(task);
 
     saveTasks();
+    document
+        .querySelector('.header input')
+        .value = '';
 })
 
 function loadTasks() {
