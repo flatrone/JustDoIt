@@ -12,7 +12,7 @@
     padding: 50px 0;
     text-align: center;
     align-items: center;
-    background-color: steelblue;
+    background-color: black;
     color: white;
 }
 
@@ -51,7 +51,7 @@
 
 
 /* media------------------------ */
-@media screen and (max-width: 320px) {
+@media screen and (max-device-width: 120px) {
     .field__task input {
         font-size: 20px;
     }
